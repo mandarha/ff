@@ -2,7 +2,7 @@
 # # Step 1 Import Libraries
 import os
 import configparser
-from snowflake.snowpark import Session
+from snowflake.snowpark.session import Session
 from snowflake.snowpark.functions import *
 import pandas as pd
 import streamlit as st
