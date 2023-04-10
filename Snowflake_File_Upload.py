@@ -31,7 +31,7 @@ conn = {                            "account": sfAccount,
                                     "user": sfUser,
                                     "password": sfPass,
                                     "role": sfRole,
-                                    "warehouse": sfWarehouse}
+                                    "warehouse": sfWarehouse
        }
 
 # # Step 3 Create a seccion using the connection parameters
