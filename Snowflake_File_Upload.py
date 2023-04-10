@@ -28,7 +28,7 @@ def run_query(query):
     with conn.cursor() as cur:
         cur.execute(query)
         return cur.fetchall()
-
+run_query("USE ROLE ACCOUNTADMIN;")
 rows = run_query("SELECT * from sf_demo.sf_demo.emp_salary;")
 
 # Print results.
