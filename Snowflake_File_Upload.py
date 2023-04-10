@@ -16,7 +16,7 @@ st.set_page_config(
 @st.cache_resource
 def init_connection():
     return snowflake.connector.connect(
-        **st.secrets["snowflakePOC"], client_session_keep_alive=True
+        **st.secrets["SNOWFLAKEPOC"], client_session_keep_alive=True
     )
 
 conn = init_connection()
